@@ -685,6 +685,10 @@ p {
     margin: auto auto auto auto;
 }
 
+.pos-relative {
+    position: relative;
+}
+
 .ts-big {
     font-size: 18px;
 }
@@ -777,7 +781,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CC4C10;
 }
 
 .tc-white {
@@ -785,11 +789,11 @@ h4 {
 }
 
 .tc-tangerine {
-    color: #F3976C!important;
+    color: #CC4C10!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CC4C10;
     color: #FFFFFF!important;
 }
 
@@ -807,7 +811,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #CC4C10!important;
 }
 
 .ltc-atomic-tangerine:hover {
