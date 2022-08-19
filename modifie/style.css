@@ -28,7 +28,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -505,10 +504,34 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    resize: none;
+    border: 1px solid;
+    font-size: 18px;
 }
+
+input {
+    height: 2em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/*textarea {
+    height: unset;
+}*/
 
 .scrollToTop {
     width: 40px;
@@ -751,6 +774,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    object-fit: cover;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -1040,6 +1065,10 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+
+.coordonnées {
+    font-size: 16px;
 }
 
 @media (max-width: 400px) {
