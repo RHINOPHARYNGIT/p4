@@ -733,6 +733,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -912,8 +914,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: var(safe-area-inset-left);
+        padding-right: var(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -923,8 +925,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: var(safe-area-inset-left);
+        padding-right: var(safe-area-inset-right);
     }
 }
 
