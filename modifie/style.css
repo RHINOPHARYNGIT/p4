@@ -288,6 +288,10 @@ a:hover {
     padding-left: 0;
 }
 
+#bloc-1-hero {
+    padding:70px 50px
+}
+
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -706,7 +710,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -988,6 +992,9 @@ h4 {
         border-bottom-color: transparent;
         border-right-color: transparent;
         border-left-color: transparent;
+    }
+    #bloc-1-hero {
+        padding: unset;
     }
     #hero-bloc .navbar .nav {
         background: rgba(0, 0, 0, .8);
