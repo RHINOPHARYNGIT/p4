@@ -410,6 +410,9 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    .lightbox-caption {
+        font-size: 18px;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -539,9 +542,7 @@ input {
     gap: 5px;
 }
 
-/*textarea {
-    height: unset;
-}*/
+
 
 .scrollToTop {
     width: 40px;
@@ -617,6 +618,7 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+    font-size: 13px;
 }
 
 .close-lightbox {
@@ -888,6 +890,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .lightbox-caption {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -897,11 +902,17 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .lightbox-caption {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .lightbox-caption {
+        font-size: 18px;
     }
 }
 
@@ -923,10 +934,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    /*.bloc {
-        padding-left: var(safe-area-inset-left);
-        padding-right: var(safe-area-inset-right);
-    }*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -935,12 +942,16 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /*padding-left: var(safe-area-inset-left);
-        padding-right: var(safe-area-inset-right);*/
+    }
+    .lightbox-caption {
+        font-size: 18px;
     }
 }
 
 @media (max-width: 767px) {
+    .lightbox-caption {
+        font-size: 13px;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1091,10 +1102,16 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .lightbox-caption {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .lightbox-caption {
+        font-size: 13px;
     }
 }
